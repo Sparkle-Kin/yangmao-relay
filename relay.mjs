@@ -28,6 +28,7 @@ async function scrapeLinuxDo(browser) {
   const page = await browser.newPage({ userAgent: UA });
   try {
     // latest.json 是 Discourse 的公开 JSON 接口；浏览器会自动过 Cloudflare 的 JS 验证。
+    // 被限流（Too Many Requests）时改走 latest.rss 再试一次。
     await page.goto('https://linux.do/latest.json', { waitUntil: 'domcontentloaded', timeout: 60000 });
     await page.waitForTimeout(8000); // 给验证留时间
     const text = await page.evaluate(() => document.body.innerText);
@@ -45,7 +46,34 @@ async function scrapeLinuxDo(browser) {
       .slice(0, 30);
     return { ok: true, count: items.length, items };
   } catch (e) {
-    return { ok: false, count: 0, items: [], error: String(e?.message || e) };
+    log('LINUX DO JSON 失败，改走 RSS：', e?.message || e);
+    try {
+      await page.goto('https://linux.do/latest.rss', { waitUntil: 'domcontentloaded', timeout: 60000 });
+      await page.waitForTimeout(5000);
+      const xml = await page.evaluate(() => document.body.innerText);
+      const now = Date.now();
+      const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)]
+        .map((m) => {
+          const block = m[1];
+          const pick = (tag) => {
+            const mm = block.match(new RegExp(`<${tag}>(?:<!\\[CDATA\\[)?([\\s\\S]*?)(?:\\]\\]>)?</${tag}>`));
+            return mm ? mm[1].trim() : null;
+          };
+          return {
+            title: pick('title'),
+            link: pick('link'),
+            pubDate: pick('pubDate') ? new Date(pick('pubDate')).toISOString() : null,
+            source: 'LINUX DO',
+          };
+        })
+        .filter((i) => i.title && i.link)
+        .filter((i) => !i.pubDate || now - new Date(i.pubDate).getTime() <= SEVEN_DAYS)
+        .slice(0, 30);
+      if (items.length) return { ok: true, count: items.length, items };
+      return { ok: false, count: 0, items: [], error: 'RSS 抓到 0 条：' + String(e?.message || e) };
+    } catch (e2) {
+      return { ok: false, count: 0, items: [], error: String(e2?.message || e2) };
+    }
   } finally {
     await page.close().catch(() => {});
   }
@@ -63,10 +91,12 @@ async function scrapeCjx8(browser) {
       const seen = new Set();
       for (const a of document.querySelectorAll('a[href]')) {
         const href = a.getAttribute('href') || '';
-        const title = (a.textContent || '').trim();
+        // 只要真正的线报帖：/post/<数字>；导航、分类、排行、关于等链接不要。
+        if (!/\/post\/\d+/.test(href)) continue;
+        let title = (a.textContent || '').trim();
+        // 列表里标题后面会跟“刚刚12”“刚刚0京东”这类时间+数量+平台后缀，去掉。
+        title = title.replace(/刚刚.*$/, '').trim();
         if (!title || title.length < 4 || title.length > 80) continue;
-        if (!/^\/[^/]/.test(href) && !href.startsWith('https://cjx8.com/')) continue;
-        if (/^\/(tag|category|page|author|search)/.test(href)) continue;
         const link = href.startsWith('http') ? href : 'https://cjx8.com' + href;
         if (seen.has(link)) continue;
         seen.add(link);
