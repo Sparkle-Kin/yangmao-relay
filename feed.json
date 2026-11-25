@@ -1,253 +1,433 @@
 {
-  "updatedAt": "2026-11-25T13:39:12.940Z",
+  "updatedAt": "2026-11-25T22:48:21.420Z",
   "sources": {
     "linuxdo": {
-      "ok": false,
-      "count": 0,
-      "items": [],
-      "error": "RSS 抓到 0 条：Unexpected token 'T', \"Too Many Requests\" is not valid JSON"
+      "ok": true,
+      "count": 30,
+      "items": [
+        {
+          "title": "Antigravity,反重力,调用模型出现 model unavalible",
+          "link": "https://linux.do/t/topic/3245310",
+          "pubDate": "2026-11-25T22:29:00.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "Mac用户记得用Gemini Task",
+          "link": "https://linux.do/t/topic/3245309",
+          "pubDate": "2026-11-25T22:27:48.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "在深度体验了1B token的glm5.4之后",
+          "link": "https://linux.do/t/topic/3245308",
+          "pubDate": "2026-11-25T22:16:58.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "最近在社区跟着佬们领了很多资源",
+          "link": "https://linux.do/t/topic/3245307",
+          "pubDate": "2026-11-25T22:15:21.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "谷歌ios尽快自己主动取消订阅",
+          "link": "https://linux.do/t/topic/3245306",
+          "pubDate": "2026-11-25T22:13:34.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "老馬也知grok垃圾, 谁还30刀用一个月？",
+          "link": "https://linux.do/t/topic/3245305",
+          "pubDate": "2026-11-25T22:07:56.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "一共三个jio,副号的ai pro正式掉了.问问大家的jio情况",
+          "link": "https://linux.do/t/topic/3245299",
+          "pubDate": "2026-11-25T21:49:01.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "速报: 1password 也被黑客入侵了",
+          "link": "https://linux.do/t/topic/3245298",
+          "pubDate": "2026-11-25T21:48:52.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "antigravity另类使用t3的方式(neon 规划，sol 执行）",
+          "link": "https://linux.do/t/topic/3245294",
+          "pubDate": "2026-11-25T21:45:25.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "前Claude Code核心成员Thariq 加入 OpenAI",
+          "link": "https://linux.do/t/topic/3245293",
+          "pubDate": "2026-11-25T21:44:37.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "该睡觉了，佬友们晚安！",
+          "link": "https://linux.do/t/topic/3245288",
+          "pubDate": "2026-11-25T21:33:39.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "今天又是一个不眠之夜",
+          "link": "https://linux.do/t/topic/3245285",
+          "pubDate": "2026-11-25T21:22:50.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "佬们0圆24个月谷歌pro是不是只能在反重力用",
+          "link": "https://linux.do/t/topic/3245283",
+          "pubDate": "2026-11-25T21:16:10.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "根据cursor反馈的信息 一个老套餐送的 claude模型额度是 680刀 每月",
+          "link": "https://linux.do/t/topic/3245281",
+          "pubDate": "2026-11-25T21:14:25.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "咕咕嘎嘎杀号以后响应速度",
+          "link": "https://linux.do/t/topic/3245280",
+          "pubDate": "2026-11-25T21:14:09.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "手机 L 站的 LDC 怎么用的",
+          "link": "https://linux.do/t/topic/3245273",
+          "pubDate": "2026-11-25T20:53:59.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "GEMINI 黑五将止 付费学生PRO真会掉吗？欢迎各位参与投票",
+          "link": "https://linux.do/t/topic/3245272",
+          "pubDate": "2026-11-25T20:51:31.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "一折Ultra掉了，等27号黑五还是马上现在追黑5好？",
+          "link": "https://linux.do/t/topic/3245269",
+          "pubDate": "2026-11-25T20:49:14.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "Google ultra 体验到期",
+          "link": "https://linux.do/t/topic/3245265",
+          "pubDate": "2026-11-25T20:45:47.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "去年圣诞99买了 google ai pro，今年只能 199 续费了吗？",
+          "link": "https://linux.do/t/topic/3245263",
+          "pubDate": "2026-11-25T20:43:56.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "AI文真难受啊，一堆AI文",
+          "link": "https://linux.do/t/topic/3245262",
+          "pubDate": "2026-11-25T20:43:18.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "好奇问问开 200 刀 AI 订阅的佬友们，日常用顶配模型写代码是一种什么体验？",
+          "link": "https://linux.do/t/topic/3245260",
+          "pubDate": "2026-11-25T20:36:31.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "gemini ultra 自动退款了",
+          "link": "https://linux.do/t/topic/3245255",
+          "pubDate": "2026-11-25T20:26:24.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "求助，各种方法注册Gmail邮箱都跳sms验证",
+          "link": "https://linux.do/t/topic/3245254",
+          "pubDate": "2026-11-25T20:23:32.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "我去，su-kaka人呢？agy2api作者人呢？",
+          "link": "https://linux.do/t/topic/3245242",
+          "pubDate": "2026-11-25T20:07:01.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "真不知道干啥好了，脑子一片空白求点灵感",
+          "link": "https://linux.do/t/topic/3245240",
+          "pubDate": "2026-11-25T20:00:28.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "最近gpt的chat模式思考时间很奇怪，是我一个人吗",
+          "link": "https://linux.do/t/topic/3245235",
+          "pubDate": "2026-11-25T19:55:07.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "【codex】OpenAI这波是听劝还是求生欲？建议OpenAI直接增加一个选项：“不是...而是...”",
+          "link": "https://linux.do/t/topic/3245231",
+          "pubDate": "2026-11-25T19:43:05.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "【慢讯】Google Cloud宣布明年1月12日起，Gemini 4系列模型 缓存写入 按 1.25 倍计价",
+          "link": "https://linux.do/t/topic/3245229",
+          "pubDate": "2026-11-25T19:42:10.000Z",
+          "source": "LINUX DO"
+        },
+        {
+          "title": "这个x要不要冲啊",
+          "link": "https://linux.do/t/topic/3245221",
+          "pubDate": "2026-11-25T19:34:28.000Z",
+          "source": "LINUX DO"
+        }
+      ]
     },
     "cjx8": {
       "ok": true,
       "count": 40,
       "items": [
         {
-          "title": "花白象桶装泡面12桶26.44元，叠3.59元淘礼金",
-          "link": "https://cjx8.com/post/2213487",
+          "title": "菜安井速食合集：①纸皮烧麦等任选10件69元；②虾滑等任选10件88.9元",
+          "link": "https://cjx8.com/post/2214059",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "夕春光鲜椰汁245ml*10瓶，19.8元领券+金币抵扣",
-          "link": "https://cjx8.com/post/2213486",
+          "title": "菜善存维生素合集：女士120粒0.8/粒+男士200粒0.6/粒，Plus首购优惠",
+          "link": "https://cjx8.com/post/2214058",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "光小猪班纳儿童打底衫加绒加厚半高领任选2件37.8元",
-          "link": "https://cjx8.com/post/2213485",
+          "title": "菜青蛙王子优护水润保湿霜40g*2瓶+17.43元赠山茶花洗护4件套",
+          "link": "https://cjx8.com/post/2214057",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "夕好丽友好友趣呀土豆薯片任选10件21元",
-          "link": "https://cjx8.com/post/2213484",
+          "title": "菜半边天党参生脉饮10ml*80支 85.9元 折1.07/支",
+          "link": "https://cjx8.com/post/2214056",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "丐农行微信首绑礼：解绑重绑可抽奖",
-          "link": "https://cjx8.com/post/2213483",
+          "title": "赚支付宝转账工行10000-4.4",
+          "link": "https://cjx8.com/post/2214054",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "菜立白健康除菌茶树油洗衣液12.48斤47.9元，折3.8/斤",
-          "link": "https://cjx8.com/post/2213482",
+          "title": "菜京鲜生水果合集：莱阳秋月梨4斤14.9元，赣南脐橙8斤18.9元",
+          "link": "https://cjx8.com/post/2214055",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "败健高成人软毛牙刷12支装9.9，阿克苏冰糖心苹果8.5斤领券28.8",
-          "link": "https://cjx8.com/post/2213480",
+          "title": "菜米多奇零食合集：小米蒸锅巴618g/24包12.9元，蟹黄味干脆面980g/70包14.8元",
+          "link": "https://cjx8.com/post/2214053",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "屁猫超维他奶豆奶组合24盒99-18+凑单30.6元",
-          "link": "https://cjx8.com/post/2213481",
+          "title": "赚微信摇一摇有水",
+          "link": "https://cjx8.com/post/2214051",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "光361°童鞋保暖棉女款77.8，贝肽斯袜子0-6个月",
-          "link": "https://cjx8.com/post/2213479",
+          "title": "赚齐鲁银行支付宝收款200-6",
+          "link": "https://cjx8.com/post/2214050",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "酱佳农宝菜山东水果玉米3斤9.9元折3.3/斤",
-          "link": "https://cjx8.com/post/2213477",
+          "title": "咕还是北京财大气粗呀",
+          "link": "https://cjx8.com/post/2214049",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "奇建行代发用户自测领立减金 建行财富测评1次机会最低3666积分",
-          "link": "https://cjx8.com/post/2213476",
+          "title": "买达霏欣米诺地尔搽剂（脱发用）",
+          "link": "https://cjx8.com/post/2214048",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "花鼎湖山泉500ml*24瓶14.9元，淘金币加购金币抵扣",
-          "link": "https://cjx8.com/post/2213475",
+          "title": "拼jd高洁丝 也许有水",
+          "link": "https://cjx8.com/post/2214047",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "白金龙鱼东北大米5kg*4袋40斤1.9/斤猫超包邮",
-          "link": "https://cjx8.com/post/2213473",
+          "title": "咕摇一摇",
+          "link": "https://cjx8.com/post/2214046",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "白BBC幼朴大橙罐身体乳200g 39.4元(会员+淘金币)",
-          "link": "https://cjx8.com/post/2213474",
+          "title": "买三养火鸡面不到3块一包",
+          "link": "https://cjx8.com/post/2214045",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "菜阿克苏冰糖心苹果8.5斤，28.8元折3.39/斤",
-          "link": "https://cjx8.com/post/2213478",
+          "title": "奇金币会场红包加码：最高100-10w淘金币+额外红包，记得换号领取",
+          "link": "https://cjx8.com/post/2214044",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "菜东鹏特饮555ml*15瓶*2箱 折2元/瓶 到手60.9元",
-          "link": "https://cjx8.com/post/2213471",
+          "title": "咕移动打卡3天领0.5元话费券",
+          "link": "https://cjx8.com/post/2214043",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "败德芙巧克力4.5g*60颗29.9，木木屋婴儿棉衣2件59",
-          "link": "https://cjx8.com/post/2213470",
+          "title": "丐美团扫小牛试驾领蜜雪奶茶/圣代 多账号可叠加",
+          "link": "https://cjx8.com/post/2214042",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "光361°童鞋女童保暖棉鞋2026冬季新款，凑后77.8，贝肽斯儿童袜子0-6个月",
-          "link": "https://cjx8.com/post/2213469",
+          "title": "奇美团试驾送蜜雪奶茶/圣代 多账号可叠加领取",
+          "link": "https://cjx8.com/post/2214041",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "赚建行月月刷，裕农通也行",
-          "link": "https://cjx8.com/post/2213468",
+          "title": "咕移动APP金秋刮刮乐：5元话费中奖概率高",
+          "link": "https://cjx8.com/post/2214040",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "奇建行裕龙通通用立减J优惠 扫码可领",
-          "link": "https://cjx8.com/post/2213467",
+          "title": "丐百果园赣南脐橙4.5斤17.6元，叠加金币优惠",
+          "link": "https://cjx8.com/post/2214039",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "菜健高成人软毛牙刷12支装9.9元，折0.82/支",
-          "link": "https://cjx8.com/post/2213472",
+          "title": "丐美团汉堡节：认领680份实无，小概能中",
+          "link": "https://cjx8.com/post/2214038",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "赚北京ifree流量免费的",
-          "link": "https://cjx8.com/post/2213464",
+          "title": "奇美团汉堡节活动：认领680份实付，概率中奖",
+          "link": "https://cjx8.com/post/2214037",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "败闽农语果春见耙耙柑8斤28.8元，4.5斤18.8元",
-          "link": "https://cjx8.com/post/2213465",
+          "title": "丐热门商品下架前抢购，多份囤货不后悔",
+          "link": "https://cjx8.com/post/2214036",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "咕支付宝工商银行满20减5，1000减5",
-          "link": "https://cjx8.com/post/2213460",
+          "title": "奇楼上下架限时优惠，拍下超值自送两宜",
+          "link": "https://cjx8.com/post/2214033",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "夕蔻斯汀护手霜50g*2支，18-20左右",
-          "link": "https://cjx8.com/post/2213463",
+          "title": "赚在外面吃宵夜也被狗咬了一口",
+          "link": "https://cjx8.com/post/2214034",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "光木木屋婴儿夹棉衣服，任选2件59元，139-80",
-          "link": "https://cjx8.com/post/2213462",
+          "title": "丐7元/斤坚果礼盒含巴旦木夏威夷果，抢购",
+          "link": "https://cjx8.com/post/2214035",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "菜狮王小苏打美白牙膏 白桃120g+青柠120g 12.9元",
-          "link": "https://cjx8.com/post/2213466",
+          "title": "丐百草味坚果10件装礼盒2斤多，15元，可叠品牌金",
+          "link": "https://cjx8.com/post/2214031",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "白嫚熙红山茶产褥垫10片17.5元，淘金币抵扣95折",
-          "link": "https://cjx8.com/post/2213457",
+          "title": "奇Bug‼️百草味坚果10件装礼盒18元，反复多拍",
+          "link": "https://cjx8.com/post/2214030",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "花贵州修文猕猴桃12枚，12.9元",
-          "link": "https://cjx8.com/post/2213459",
+          "title": "丐Bug‼️多拍‼️百草味坚果10件装礼盒18元",
+          "link": "https://cjx8.com/post/2214032",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "敌嘉士利早餐饼干1kg，弹10-5返8卡，实付12.8，搜索4元红包到手8.8",
-          "link": "https://cjx8.com/post/2213458",
+          "title": "买投资金豆（？）1g金好价！",
+          "link": "https://cjx8.com/post/2214029",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "败爱国者蓝牙耳机：银沙白52.18，黑/米/蓝53.05各1件",
-          "link": "https://cjx8.com/post/2213456",
+          "title": "败认养一头牛A2β酪蛋白纯牛奶250ml*20盒，领30券到手69",
+          "link": "https://cjx8.com/post/2214028",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "夕元气森林苏打水24罐330ml 23.8元",
-          "link": "https://cjx8.com/post/2213455",
+          "title": "夕摇滚动物园润唇膏4.2g/支12.9元，桃币抵扣",
+          "link": "https://cjx8.com/post/2214026",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "菜21金维他康麦佳液体钙60粒*5瓶 59元领券",
-          "link": "https://cjx8.com/post/2213461",
+          "title": "买刷券舒客牙膏13.7r买780g",
+          "link": "https://cjx8.com/post/2214027",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "光鸭鸭羊毛蚕丝女士/男士保暖内衣套装各29.9元",
-          "link": "https://cjx8.com/post/2213454",
+          "title": "夕曼可顿汉堡胚麦芬恰巴塔任选7件25元",
+          "link": "https://cjx8.com/post/2214025",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "鬼金典有机纯牛奶200ml*10盒【19.34】3.6g优质乳蛋白",
-          "link": "https://cjx8.com/post/2213450",
+          "title": "夕喜之郎蒟蒻果冻桶520g*2桶15.9元，7.9元/桶",
+          "link": "https://cjx8.com/post/2214024",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "鬼KE·OLA海盐苏打饼干1kg，9.9元",
-          "link": "https://cjx8.com/post/2213451",
+          "title": "丐蚂蚁阿福AI智能体脂秤34.9-30=4.9元送30红包",
+          "link": "https://cjx8.com/post/2214023",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "丐裕龙通 通用",
-          "link": "https://cjx8.com/post/2213449",
+          "title": "夕UNNY眉笔一正一替23.58",
+          "link": "https://cjx8.com/post/2214022",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "女桂格燕麦片1000g*3袋19.57元，皇家小虎鸡腿+白地瓜凑单",
-          "link": "https://cjx8.com/post/2213452",
+          "title": "夕梅百华梅饼140g*3罐 18.9元",
+          "link": "https://cjx8.com/post/2214021",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "菜盼盼蟹黄味干脆面420g整箱 折0.2元/包 8.9元",
-          "link": "https://cjx8.com/post/2213453",
+          "title": "丐京东扭蛋吧 MU5104 丐友jd抽抽看",
+          "link": "https://cjx8.com/post/2214020",
           "pubDate": null,
           "source": "超级线报"
         },
         {
-          "title": "奇广东工行xyk爱购广州：轮盘抽奖盲盒集卡一分购享立减",
-          "link": "https://cjx8.com/post/2213447",
+          "title": "夕三只松鼠冻干草莓羊奶奶芙500g，15.9元",
+          "link": "https://cjx8.com/post/2214019",
           "pubDate": null,
           "source": "超级线报"
         }
