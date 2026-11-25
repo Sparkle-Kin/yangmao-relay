@@ -1,0 +1,33 @@
+# 免费版中转：GitHub Actions 定时抓取（公开仓库免费额度不限分钟数）
+# 每 5 分钟跑一次（Actions 定时任务的最短间隔），抓完把 feed.json 提交回仓库，
+# 空间直接读 jsDelivr 的 CDN 地址即可（带 CORS，可公开访问）。
+# 注意：仓库必须是公开的，否则免费账号每月只有 2000 分钟额度，不够跑。
+# 另外 GitHub 机房 IP + 真浏览器能不能过 LINUX DO 的验证，要看第一次运行的日志。
+name: 羊毛中转抓取
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - run: npx playwright install chromium --with-deps
+      - run: node relay.mjs --once
+      - name: 提交 feed.json
+        run: |
+          cp feed-cache.json feed.json
+          git config user.name "yangmao-relay"
+          git config user.email "relay@local"
+          git add feed.json
+          git diff --cached --quiet || git commit -m "update feed $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
